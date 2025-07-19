@@ -1,0 +1,50 @@
+/* General Dashboard Styling */
+.dashboard-bg {
+    min-height: 100vh;
+    padding: 2rem 0;
+    transition: all 0.5s ease;
+}
+
+/* Hover effect for cards */
+.hover-lift:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 48px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effects for buttons */
+.btn.hover-bg-dark:hover {
+    background-color: #343a40 !important;
+    border-color: #343a40 !important;
+    color: #fff;
+    transform: scale(1.05);
+}
+.btn.hover-bg-success:hover {
+    background-color: #198754 !important;
+    border-color: #198754 !important;
+    color: #fff;
+    transform: scale(1.05);
+}
+.btn.hover-bg-danger:hover {
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+    color: #fff;
+    transform: scale(1.05);
+}
+.btn.hover-bg-warning:hover {
+    background-color: #ffc107 !important;
+    border-color: #ffc107 !important;
+    color: #000;
+    transform: scale(1.05);
+}
+.btn.hover-bg-info:hover {
+    background-color: #0dcaf0 !important;
+    border-color: #0dcaf0 !important;
+    color: #000;
+    transform: scale(1.05);
+}
+.btn.hover-bg-secondary:hover {
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
+    color: #fff;
+    transform: scale(1.05);
+}
